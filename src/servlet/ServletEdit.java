@@ -22,13 +22,7 @@ public class ServletEdit extends HttpServlet
 {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-//        //头像上传
-//        Part part=request.getPart("");
-//        String filename=part.getSubmittedFileName();
-//        String filepath=request.getServletContext().getRealPath("img");
-//        String fullpath=filepath+ File.separator+filename;
-//
-//        response.getWriter().write(fullpath);
+
 
         //编辑个人资料
         String name = request.getParameter("");
