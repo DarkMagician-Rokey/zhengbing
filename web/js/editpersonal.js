@@ -11,7 +11,7 @@ window.onload=function () {
 
         var xhr=new XMLHttpRequest();
 
-        open("post","/ServletEdit");
+        open("post","/ServletUpload");
         send();
 
         xhr.onreadystatechange=function () {
