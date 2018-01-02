@@ -1,0 +1,256 @@
+body{
+    margin: 0 auto;
+    /*height: 900px;*/
+}
+.zhengti
+{
+
+    width: 1095px;
+    height: 900px;
+    margin: 0 auto;
+    border: 2px solid slategray;
+    background-color: #FFFFFF;
+    border-top: 0;
+    position: relative;
+}
+.tupian img
+{
+    width: 1060px;
+    height: 144px;
+    position: absolute;
+    margin-left: 17px;
+}
+.xinxilan
+{
+    background-color: #577F49;
+    width: 1060px;
+    height: 40px;
+    position: relative;
+    margin-left: 17px;
+    top: 144px;
+}
+.neirong a
+{
+    color: #FFFFFF;
+    line-height: 36px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+a:link
+{
+    color: #FFFFFF;
+}
+a:active
+{
+    color: yellow;
+}
+a:hover
+{
+
+    color: yellow;
+    text-decoration: underline;
+}
+.s1
+{
+    padding: 16px 16px;
+}
+.bingyidengji
+{
+    top: 10px;
+    position: relative;
+    color: gray;
+}
+.bingyidengji a
+{
+    top: 1px;
+    position: relative;
+    color: gray;
+    text-decoration: none;
+    padding: 16px 16px;
+}
+.xiahuaxian1
+{
+    top: 15px;
+    position: relative;
+}
+.bingyifagui
+{
+    color: #577F49;
+    top: 24px;
+    position: relative;
+}
+.xiahuaxian2
+{
+    right: 50px;
+    position: relative;
+    width: 201px;
+    margin-left: 50px;
+    top: 27px;
+}
+/*竖线*/
+.shuxian
+{
+
+    border-right: 1px solid gray;
+    height: 585px;
+    position: relative;
+    width: 220px;
+    top: 6px;
+
+}
+.wenjian a
+{
+    text-decoration: none;
+    color: gray;
+    bottom: 481px;
+    position: relative;
+
+}
+.wenjian
+{
+    position: relative;
+    height: 0px;
+}
+.wenti1
+{
+    color: red;
+}
+.shouce
+{
+    color: red;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.bdzc
+{
+    color: #577F49;
+    top: -241px;
+    position: relative;
+}
+.xiahuaxian3
+{
+    right: 50px;
+    position: relative;
+    width: 201px;
+    margin-left: 50px;
+    top: -223px;
+}
+.zc a
+{
+    color: gray;
+    text-decoration: none;
+    bottom: 201px;
+    position: relative;
+}
+.zc
+{
+    position: relative;
+    height: 0;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.xian4
+{
+    color: red;
+    position: relative;
+    top:-37px;
+}
+.yzbm
+{
+    position: relative;
+    left: 588px;
+    bottom: 587px;
+    font-size: 30px;
+    color: #577F49;
+    width: 132px;
+    margin: 0;
+}
+.nanbing
+{
+    color: #577F49;
+}
+.nvbing
+{
+    color: #577F49;
+}
+.wenzi
+{
+    color: #666666;
+    left: 267px;
+    bottom: 558px;
+    position: relative;
+    line-height: 33px;
+    width: 791px;
+}
+.xian5
+{
+    right: 50px;
+    position: relative;
+    width: 783px;
+    margin-left: 317px;
+    top: -550px;
+    opacity: 0.5;
+}
+.ts
+{
+    color: black;
+}
+.bydj01
+{
+    color: red;
+}
+.yzbmts
+{
+    position: relative;
+    left: 300px;
+    top: -524px;
+}
+.yznb
+{
+    width: 168px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: #EEFDE4;
+    left: 350px;
+    top: -460px;
+    position: relative;
+    color: #577F49;
+    line-height: 54px;
+    margin-left: 20px;
+    padding-left: 54px;
+    border:1px solid #577F49;
+}
+.yznvb
+{
+    width: 168px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: #EEFDE4;
+    left: 605px;
+    top: -515px;
+    position: relative;
+    color: #577F49;
+    line-height: 54px;
+    margin-left: 20px;
+    padding-left: 54px;
+    border:1px solid #577F49;
+
+
+}
+.zbdw
+{
+    color:#666666 ;
+    position: relative;
+    margin-top: 796px;
+    line-height: 24px;
+}
+.you01
+{
+    position: relative;
+    width: 627px;
+    height: 0;
+}

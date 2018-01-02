@@ -1,0 +1,379 @@
+body{
+     margin-top: 0;
+
+     height: 900px;
+ }
+.zhengti
+{
+
+    width: 1095px;
+    height: 1100px;
+    margin: 0 auto;
+    border: 2px solid slategray;
+    background-color: #FFFFFF;
+    border-top: 0;
+    position: relative;
+}
+.tupian img
+{
+    width: 1060px;
+    height: 144px;
+    position: absolute;
+    margin-left: 17px;
+}
+.xinxilan
+{
+    background-color: #577F49;
+    width: 1060px;
+    height: 40px;
+    position: relative;
+    margin-left: 17px;
+    top: 144px;
+}
+.neirong a
+{
+    color: #FFFFFF;
+    line-height: 36px;
+    text-decoration: none;
+    margin-left: 56px;
+}
+/*a:link*/
+/*{*/
+    /*color: #FFFFFF;*/
+/*}*/
+/*a:active*/
+/*{*/
+    /*color: yellow;*/
+/*}*/
+a:hover
+{
+
+    color: yellow;
+    text-decoration: underline;
+}
+.s1
+{
+    padding: 16px 16px;
+}
+.ywqn img
+{
+    position: relative;
+    width: 1059px;
+    height: 250px;
+    left: 20px;
+    top: 155px;
+}
+/*.bingyidengji*/
+/*{*/
+    /*top: 10px;*/
+    /*position: relative;*/
+    /*color: gray;*/
+/*}*/
+/*.bingyidengji a*/
+/*{*/
+    /*top: 1px;*/
+    /*position: relative;*/
+    /*color: gray;*/
+    /*text-decoration: none;*/
+    /*padding: 16px 16px;*/
+/*}*/
+
+/*.jv*/
+/*{*/
+    /*position: relative;*/
+    /*top: 193px;*/
+    /*left: 20px;*/
+/*}*/
+
+/*左边的*/
+.zuo
+{
+    position: relative;
+    width: 353px;
+    height: 150px;
+    top: 202px;
+    left: 20px;
+}
+.zcfg20
+{
+    color: #577F49;
+}
+.xian20 hr
+{
+  opacity: 0.5;
+}
+.byf20
+{
+    position: relative;
+    color: #666666;
+    opacity: 0.7;
+    left: 145px;
+    bottom: 77px;
+    font-size:10px;
+    line-height: 20px;
+
+}
+.xiangxi20
+{
+    position: relative;
+    left: 217px;
+    bottom: 96px;
+    font-size:12px;
+    line-height: 23px;
+
+}
+.xiangxi20 a
+{
+    text-decoration: none;
+    color: #577F49;
+}
+a:hover
+{
+    text-decoration: underline;
+
+}
+.xian19
+{
+    position: relative;
+    bottom: 54px;
+    opacity: 0.3;
+}
+.tiaoli20
+{
+    left: -18px;
+    position: relative;
+    bottom: 54px;
+}
+.tiaoli20 a
+{
+   text-decoration: none;
+    color: #666666;
+    opacity: 0.7;
+    line-height: 20px;
+    font-size: 10px;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+
+/*中间*/
+
+.zhongjian
+{
+    position: relative;
+    width: 353px;
+    height: 150px;
+    top: 52px;
+    left: 381px;
+}
+
+.zcfg19
+{
+    color: #577F49;
+}
+.xian18 hr
+{
+    opacity: 0.5;
+}
+.tupian19 img
+{
+    width: 141px;
+    height: 87px;
+}
+.byf19
+{
+    position: relative;
+    color: #666666;
+    opacity: 0.7;
+    left: 145px;
+    bottom: 77px;
+    font-size:10px;
+    line-height: 20px;
+}
+.xiangxi19
+{
+    position: relative;
+    left: 289px;
+    bottom: 96px;
+    font-size:12px;
+    line-height: 17px;
+
+}
+.xiangxi19 a
+{
+    text-decoration: none;
+    color: #577F49;
+}
+a:hover
+{
+    text-decoration: underline;
+
+}
+.xian17
+{
+    position: relative;
+    bottom: 48px;
+    opacity: 0.3;
+}
+.tiaoli19
+{
+    left: -18px;
+    position: relative;
+    bottom: 48px;
+}
+.tiaoli19 a
+{
+    text-decoration: none;
+    color: #666666;
+    opacity: 0.7;
+    line-height: 20px;
+    font-size: 10px;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.wtjl a{
+    color: red;
+}
+.rwxcd a
+{
+    color: red;
+}
+
+/*右侧*/
+
+.youce
+{
+    position: relative;
+    width: 304px;
+    height: 150px;
+    top: -97px;
+    left:740px;
+}
+
+.zcfg18
+{
+    color: #577F49;
+}
+.xian16 hr
+{
+    opacity: 0.5;
+}
+
+
+
+.byf18
+{
+    position: relative;
+    color: #666666;
+    opacity: 0.7;
+    left: 4px;
+    bottom: -14px;
+    font-size:10px;
+    line-height: 20px;
+}
+.xiangxi18
+{
+    position: relative;
+    left: 173px;
+    bottom: 3px;
+    font-size:12px;
+    line-height: 17px;
+
+
+}
+.xiangxi18 a
+{
+    text-decoration: none;
+    color:red;
+    padding: 16px 16px;
+}
+.xian15 hr
+{
+    opacity: 0.3;
+
+}
+a:hover
+{
+    text-decoration: underline;
+    left: 10px;
+
+}
+.xian17
+{
+    position: relative;
+    bottom: 48px;
+    opacity: 0.3;
+}
+.tiaoli18
+{
+    left: -9px;
+    position: relative;
+    bottom: -1px;
+}
+.tiaoli18 a
+{
+    text-decoration: none;
+    color: #666666;
+    opacity: 0.7;
+    line-height: 20px;
+    font-size: 10px;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+/*下面*/
+.xiamian
+{
+    position: relative;
+    top: 152px;
+    left: 20px;
+}
+.jctp
+{
+    color: #577F49;
+
+}
+.xian14
+{
+   width: 1002px;
+    right: 50px;
+
+}
+.tu1
+{
+    position: relative;
+    top: 28px;
+}
+.t02
+{
+    position: relative;
+    left: 40px;
+}
+.t03
+{
+    position: relative;
+    left: 110px;
+}
+.t04{
+    position: relative;
+    left: 180px;
+}
+.t05
+{
+    position: relative;
+    left: 250px;
+}
+
+
+
+
+
+
+
+

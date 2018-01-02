@@ -1,0 +1,298 @@
+body{
+    margin-top: 0;
+    height: 1200px;
+}
+.zhengti
+{
+
+    width: 1095px;
+    height: 1430px;
+    margin: 0 auto;
+    border: 2px solid slategray;
+    background-color: #FFFFFF;
+    border-top: 0;
+    position: relative;
+}
+.tupian img
+{
+    width: 1060px;
+    height: 144px;
+    position: absolute;
+    margin-left: 17px;
+}
+.xinxilan
+{
+    background-color: #577F49;
+    width: 1060px;
+    height: 40px;
+    position: relative;
+    margin-left: 17px;
+    top: 144px;
+}
+.neirong a
+{
+    color: #FFFFFF;
+    line-height: 36px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+a:link
+{
+    color: #FFFFFF;
+}
+a:active
+{
+    color: yellow;
+}
+a:hover
+{
+
+    color: yellow;
+    text-decoration: underline;
+}
+.s1
+{
+    padding: 16px 16px;
+}
+.bingyidengji
+{
+    top: 10px;
+    position: relative;
+    color: gray;
+}
+.bingyidengji a
+{
+    top: 1px;
+    position: relative;
+    color: gray;
+    text-decoration: none;
+    padding: 16px 16px;
+}
+.bianhuan img
+{
+    position: relative;
+    left: 17px;
+    top: 166px;
+    width: 1060px;
+    height: 258px;
+}
+.jv
+{
+    position: relative;
+    top: 193px;
+    left: 20px;
+}
+.xian01
+{
+    position: absolute;
+    width: 275px;
+    top: 5px;
+}
+.gfzs
+{
+    position: relative;
+    top: 162px;
+    left: 22px;
+}
+.gfzs a
+{
+    text-decoration: none;
+    color: #666666;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.xian11
+{
+    position: relative;
+    top: 180px;
+    width: 1049px;
+    left: 20px;
+}
+.gf
+{
+    color: #577F49;
+    position: relative;
+    top: 192px;
+    width: 1049px;
+    left: 20px;
+}
+.xian12
+{
+    position: relative;
+    top: 201px;
+    width: 565px;
+    left: 20px;
+}
+.beijing
+{
+    position: relative;
+    top: 240px;
+    left: 20px;
+    background-color: #EEFDE4;
+    width: 565px;
+    height: 106px;
+    border-bottom: 2px solid #577F49 ;
+
+}
+.shengshi00
+{
+    position: relative;
+    line-height: 81px;
+    left: 74px;
+    color: #666666;
+
+}
+.ajfq
+{
+    position: relative;
+    left: 74px;
+    bottom: 20px;
+    color: #666666;
+}
+.biaoji
+{
+    position: relative;
+    top: 288px;
+    line-height: 18px;
+    z-index: 1;
+    width: 500px;
+}
+.biaoji a
+{
+    text-decoration: none;
+    color: #666666;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.youbian
+{
+    width: 500px;
+    position: relative;
+    bottom: 382px;
+}
+.bydj03
+{
+    width: 137px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: #EEFDE4;
+    left: 631px;
+    top: -257px;
+    position: relative;
+    color: #577F49;
+    line-height: 53px;
+    margin-left: 21px;
+    padding-left: 25px;
+    border:1px solid #577F49;
+}
+.yzbm03
+{
+    width: 137px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: #EEFDE4;
+    left: 827px;
+    top: -312px;
+    position: relative;
+    color: #577F49;
+    line-height: 53px;
+    margin-left: 21px;
+    padding-left: 25px;
+    border:1px solid #577F49;
+}
+.nm18
+{
+    position: relative;
+    left: 646px;
+    top: -296px;
+    color: #666666;
+    line-height: 24px;
+}
+.byglbm
+{
+    width: 137px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: #EEFDE4;
+    left: 631px;
+    top: -257px;
+    position: relative;
+    color: #577F49;
+    line-height: 53px;
+    margin-left: 21px;
+    padding-left: 25px;
+    border:1px solid #577F49;
+}
+.zzglbm
+{
+    width: 137px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: #EEFDE4;
+    left: 827px;
+    top: -312px;
+    position: relative;
+    color: #577F49;
+    line-height: 53px;
+    margin-left: 21px;
+    padding-left: 25px;
+    border:1px solid #577F49;
+}
+.byfg00
+{
+    position: relative;
+    left: 650px;
+    color: #577F49;
+    top: -265px;
+}
+.xian15
+{
+    position: relative;
+    width: 366px;
+    right: -656px;
+    bottom: 255px;
+}
+.biaoji01
+{
+    position: relative;
+    width: 366px;
+    right: -656px;
+    bottom: 255px;
+
+
+}
+.biaoji01 a
+{
+    color: #666666;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.capf img
+{
+    position: relative;
+    width:368px;
+    height: 197px;
+    left: 671px;
+    bottom: 271px;
+}
+.xian16 hr
+{
+    position: relative;
+    width: 1045px;
+    left: 20px;
+}
+.zbdw0
+{
+    position: relative;
+    width: 1139px;
+    color: #666666;
+    line-height: 28px;
+}
+
