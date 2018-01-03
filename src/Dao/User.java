@@ -5,12 +5,12 @@ package Dao;
  */
 public class User
 {
-    private int UserPhoneNumber;
+    private String UserPhoneNumber;
     private String UserPassword;
     private String UserName;
     private String UserSex;
     private String UserTypeOfCertificate;
-    private int UserLicenseNumber;
+    private String UserLicenseNumber;
     private String UserMailbox;
     private String UserSecurityQuestion1;
     private String UserAnswer1;
@@ -24,7 +24,7 @@ public class User
     {
     }
 
-    public User(int userPhoneNumber, String userPassword, String userName, String userSex, String userTypeOfCertificate, int userLicenseNumber, String userMailbox, String userSecurityQuestion1, String userAnswer1, String userSecurityQuestion2, String userAnswer2, String userSecurityQuestion3, String userAnswer3, String userPhotoUrl)
+    public User(String userPhoneNumber, String userPassword, String userName, String userSex, String userTypeOfCertificate, String userLicenseNumber, String userMailbox, String userSecurityQuestion1, String userAnswer1, String userSecurityQuestion2, String userAnswer2, String userSecurityQuestion3, String userAnswer3, String userPhotoUrl)
     {
         UserPhoneNumber = userPhoneNumber;
         UserPassword = userPassword;
@@ -42,12 +42,12 @@ public class User
         UserPhotoUrl = userPhotoUrl;
     }
 
-    public int getUserPhoneNumber()
+    public String getUserPhoneNumber()
     {
         return UserPhoneNumber;
     }
 
-    public void setUserPhoneNumber(int userPhoneNumber)
+    public void setUserPhoneNumber(String userPhoneNumber)
     {
         UserPhoneNumber = userPhoneNumber;
     }
@@ -92,12 +92,12 @@ public class User
         UserTypeOfCertificate = userTypeOfCertificate;
     }
 
-    public int getUserLicenseNumber()
+    public String getUserLicenseNumber()
     {
         return UserLicenseNumber;
     }
 
-    public void setUserLicenseNumber(int userLicenseNumber)
+    public void setUserLicenseNumber(String userLicenseNumber)
     {
         UserLicenseNumber = userLicenseNumber;
     }
