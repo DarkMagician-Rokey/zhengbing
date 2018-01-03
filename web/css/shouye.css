@@ -30,6 +30,28 @@ body{
     margin-left: 17px;
     top: 144px;
 }
+
+.email{
+    color: #FFFFFF;
+    line-height: 36px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.email:hover{
+    color: yellow;
+}
+
+.ed{
+    color: #FFFFFF;
+    line-height: 36px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.ed:hover{
+    color: yellow;
+}
 .neirong a
 {
     color: #FFFFFF;
@@ -37,14 +59,8 @@ body{
     text-decoration: none;
     margin-left: 56px;
 }
-/*a:link*/
-/*{*/
-    /*color: #FFFFFF;*/
-/*}*/
-/*a:active*/
-/*{*/
-    /*color: yellow;*/
-/*}*/
+
+
 a:hover
 {
 
@@ -63,27 +79,7 @@ a:hover
     left: 20px;
     top: 155px;
 }
-/*.bingyidengji*/
-/*{*/
-    /*top: 10px;*/
-    /*position: relative;*/
-    /*color: gray;*/
-/*}*/
-/*.bingyidengji a*/
-/*{*/
-    /*top: 1px;*/
-    /*position: relative;*/
-    /*color: gray;*/
-    /*text-decoration: none;*/
-    /*padding: 16px 16px;*/
-/*}*/
 
-/*.jv*/
-/*{*/
-    /*position: relative;*/
-    /*top: 193px;*/
-    /*left: 20px;*/
-/*}*/
 
 /*左边的*/
 .zuo
@@ -166,7 +162,7 @@ a:hover
     width: 353px;
     height: 150px;
     top: 52px;
-    left: 381px;
+    left: 540px;
 }
 
 .zcfg19
@@ -199,7 +195,7 @@ a:hover
     bottom: 96px;
     font-size:12px;
     line-height: 17px;
-
+    width: 36px;
 }
 .xiangxi19 a
 {
@@ -331,7 +327,7 @@ a:hover
 .xiamian
 {
     position: relative;
-    top: 152px;
+    top: 310px;
     left: 20px;
 }
 .jctp
