@@ -1,0 +1,265 @@
+body {
+    background-color: #eff3f6;
+    margin: 0px 0px;
+}
+/*ͷ*/
+.biaotou {
+    background: #6095C1;
+    height: 200px;
+
+}
+.beijingtu{
+    background: url("../images/yz_banner_bg.png");
+    height: 100px;
+    width: 734px;
+    position: relative;
+    top: 50px;
+    left: 126px;
+}
+.biaotou span,.biaotou a {
+    color: white;
+    font-size: 13px;
+}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+.san {
+    position: absolute;
+    right: 150px;
+    top: 10px;
+}
+.xuexin {
+    margin-right: 13px;
+    margin-left: 7px;
+}
+.xia {
+    position: absolute;
+    right: 150px;
+    top: 105px;
+}
+
+/*��*/
+.wenti {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    top: -50px;
+    border: 10px solid #EFF3F6;
+    box-shadow: 0 0 5px #999;
+}
+.wentou{
+    width: 850px;
+    height: 60px;
+    margin: 0px auto;
+    border-bottom: 1px solid #EFF3F6;
+}
+
+.huanying {
+    position: absolute;
+    left: 335px;
+    top: 15px;
+    font-size: 25px;
+}
+.yiyou {
+    position: absolute;
+    right: 210px;
+    top: 20px;
+    font-size: 14px;
+}
+
+.denglu {
+    position: absolute;
+    right: 113px;
+    top: 12px;
+    font-size: 14px;
+    color: white;
+    padding: 8px 15px;
+    background-color: #6095C1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.wentou a:hover{
+    background-color: #669dcc;
+}
+
+.wenxia {
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+.wenxia a:link {text-decoration:underline;}
+.wenxia a:visited {text-decoration:underline;}
+.wenxia a{
+    color: #06C;
+}
+
+.form {
+    position: absolute;
+    left: 60px;
+    top: 120px;
+}
+
+.Demo {
+    position: relative;
+    left: 100px;
+    margin-bottom: 20px;
+}
+.intext {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+.intext2 {
+    width: 200px;
+    height: 30px;
+}
+.xiaoyanma {
+    width: 70px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #AAA;
+}
+.mianfe {
+    width: 115px;
+    height: 33px;
+    background-color: #F6F6F6;
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mianfe:hover {
+    background-color: white;
+}
+
+.xin {
+    color: red;
+}
+.Demo2 {
+    left: 132px;
+}
+.Demo3{
+    left: 117px;
+}
+.Demo4{
+    left: 111px;
+}
+.form input ,.form select{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.daan {
+    margin-left: 20px;
+}
+.testin {
+    margin-left: 20px;
+}
+.zhi {
+    margin-right: 5px;
+}
+.zhi2 {
+    position: relative;
+    right: 13px;
+}
+.wendidi {
+    position: relative;
+    left: 182px;
+    top: 20px;
+    font-size: 13px;
+}
+.fuwu {
+    color: #06C;
+}
+.wenzhang {
+    position: relative;
+    top: 20px;
+}
+.wenzhang a{
+    color: #333333;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.zhuce{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #6095C1;
+    color: white;
+    padding: 10px 50px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.zhuce:hover{
+    background-color: #669dcc;
+}
+.strengthMeter {
+    border: 0;
+    margin: 0;
+    background-image: url("../images/meter_background.jpg");
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    line-height: 17px;
+    left: 199px;
+    top: 131px;
+}
+/*��*/
+
+.dididi {
+    background-color: white;
+    height: 60px;
+}
+.wangyedi {
+    width: 500px;
+    margin: auto auto;
+    position: relative;
+    top: 20px;
+    font-size: 13px;
+}
+.diclass {
+    color: #333333;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.yanzheng {
+    color: #666;
+    font-size: 15px;
+}
+.error, .errorMessage {
+    color: #C00;
+}
+.sangchuan {
+    height: 150px;
+    width: 110px;
+    border: 1px solid black;
+    position: relative;
+    top: 70px;
+    left: 722px;
+    font-size: 15px;
+
+}
+.dianji {
+    position: relative;
+    top: -100px;
+    left: 9px;
+    cursor: pointer;
+}
+.yaoqiu{
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: -96px;
+    left: 6px;
+}
+
+.imges{
+    width: 110px;
+    height: 150px;
+    cursor: pointer;
+}
