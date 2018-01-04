@@ -17,6 +17,6 @@
 <div class="img" id="img" onclick="ready()">
 </div>
 </form>
-<input type="submit" id="submit" form="form">
+<input type="submit" id="submit" form="form" hidden>
 </body>
 </html>
