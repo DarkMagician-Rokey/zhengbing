@@ -13,7 +13,7 @@
     <script src="../js/ready.js"></script>
 </head>
 <body>
-<form action="/ServletHome" method="post" id="form" name="form">
+<form action="/ServletHome" method="post" id="form">
 <div class="img" id="img" onclick="ready()">
 </div>
 </form>
