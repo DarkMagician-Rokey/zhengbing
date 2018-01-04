@@ -72,7 +72,7 @@ public class ServletHome extends HttpServlet
     {
         List<MaterialSource_work> li = new ArrayList();
         Connection conn = DBUtil.connedDB();
-        String sql = "select MATERIALNAME from MATERIALTABLE";
+        String sql = "select MATERIALNAME from MATERIALSOURCE";
         try
         {
             PreparedStatement ps = conn.prepareStatement(sql);
