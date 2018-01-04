@@ -1,0 +1,7 @@
+.img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("../images/预备页.jpg") no-repeat fixed;
+}
