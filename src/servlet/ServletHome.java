@@ -26,11 +26,6 @@ public class ServletHome extends HttpServlet
 {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-
-
-
-
-
         //政策法规
         List<MaterialTable_laws> li_laws = getLaws();
 
@@ -42,6 +37,7 @@ public class ServletHome extends HttpServlet
         hs.setAttribute("fagui", li_laws);
         hs.setAttribute("work", li_work);
 
+        response.sendRedirect("/page/Home.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
@@ -74,7 +70,7 @@ public class ServletHome extends HttpServlet
 
     public List<MaterialSource_work> getWork()
     {
-        List<MaterialSource_work> li=new ArrayList();
+        List<MaterialSource_work> li = new ArrayList();
         Connection conn = DBUtil.connedDB();
         String sql = "select MATERIALNAME from MATERIALTABLE";
         try
@@ -83,7 +79,7 @@ public class ServletHome extends HttpServlet
             ResultSet rs = ps.executeQuery();
             while (rs.next())
             {
-                MaterialSource_work m=new MaterialSource_work();
+                MaterialSource_work m = new MaterialSource_work();
                 m.setMaterialName(rs.getString("MATERIALNAME"));
                 li.add(m);
             }
