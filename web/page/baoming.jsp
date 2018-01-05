@@ -1,43 +1,44 @@
 <%--
   Created by IntelliJ IDEA.
   User: ttc
-  Date: 17-12-28
-  Time: 上午11:19
+  Date: 18-1-4
+  Time: 上午11:39
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>兵役登记——全国征兵网</title>
-    <link rel="stylesheet" href="../css/bydj.css">
-    <script src="../js/dengji.js"></script>
+    <meta charset="UTF-8">
+    <title>应征报名——全国征兵网</title>
+    <link rel="stylesheet" href="../css/yzbm.css">
 </head>
 <body>
 <div class="zhengti">
     <div class="tupian">
-        <img src="../images/banner.jpg" alt="巨幕">
+        <img src="../images/banner.jpg" alt="">
     </div>
     <div class="xinxilan">
          <span class="neirong">
              <a href="../page/Home.jsp" class="s1">首页|</a>
-             <a href="#">兵役登记|</a>
-             <a href="../page/baoming.jsp">应征报名</a>
-             <a href="../">国防知识|</a>
+             <a href="../page/dengji.jsp">兵役登记|</a>
+             <a href="#">应征报名</a>
+             <a href="">国防知识|</a>
              <a href="">军旅生活</a>
              <a href="">退役风采|</a>
              <a href="">在线咨询</a>
          </span>
         <div class="bingyidengji">
             <a href="shouye.html">首页>></a>
-            兵役登记
+            应征报名
         </div>
         <div class="xiahuaxian1">
             <hr>
         </div>
-        <div class="shuxian2"></div>
-        <div class="shuxian">
-            <div class="bingyifagui"><strong>|&nbsp;&nbsp;政策法规</strong></div>
+        <div class="shuxian"></div>
+        <div class="bingyifa">
+            <div class="bingyifagui"><strong>|&nbsp;&nbsp;兵役法规</strong></div>
             <div class="xiahuaxian2">
                 <hr>
             </div>
@@ -51,26 +52,24 @@
         <div class="xian4">
             <hr>
         </div>
-        <div class="you03">
-            <div class="bydj02"><strong>兵役登记</strong></div>
+        <div class="you01">
+            <div class="yzbm"><strong>应征报名</strong></div>
             <div class="wenzi">
-                当年12月31日前年满18岁的男性公民，
-                应当按照法律规定履行兵役登记义务。
-                当年12月31日以前年满17岁未满 <br>18岁的男性高中(含中专、职高、技校)毕业生，
-                本人自愿应征的，也可进行登记报名。
+                <span class="nanbing"><strong>应征报名（男兵）招收对象：</strong></span>高中（含中专、职高、技校）毕业及以上文化程度的青年(含高校在校生)，
+                年满<br> 17至22周岁；大专及以上文化程度的高校毕业生，年满17至24周岁；初中毕业文化程度青年，
+                年满18至20周岁。<br>
+                <span class="nvbing"><strong>应征报名(女兵)征集对象：</strong></span>普通高中应届毕业生(含高校新生)、普通全日制高校 在校生及应届毕业生，
+                年满<br>17至22周岁。
             </div>
-            <div class="yijing">已经进行过兵役登记，有参军意向的可直接参加网上应征报名。</div>
-            <div class="sjjd">
-                <span class="mndj"><strong>每年兵役登记时间：</strong></span>
-                <span class="sjjd1">1月1日 至 6月30日。</span> <br> <br>
-                <span class="yzbmsj"> <strong>应征报名时间：</strong></span>
-                <span class="sjjd2"> 2月1日 至 8月5日</span>
-            </div>
-
             <div class="xian5">
                 <hr>
             </div>
-            <div class="jxbydj" onclick="login()">进行兵役登记</div>
+            <div class="yzbmts">
+                <span class="ts"><strong>应征报名提示：</strong></span>男兵报名前须完成
+                <span class="bydj01">兵役登记</span>
+            </div>
+            <div class="yznb" onclick="">应征报名(男兵)</div>
+            <div class="yznvb" onclick="">应征报名(女兵)</div>
         </div>
     </div>
     <div class="zbdw">
@@ -87,5 +86,6 @@
     </div>
 
 </div>
+
 </body>
 </html>
