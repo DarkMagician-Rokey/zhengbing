@@ -1,17 +1,19 @@
 body{
     margin-top: 0;
-
-    height: 900px;
+    margin-bottom: 0;
+    background-color: #e4eae5;
+    /*height: 900px;*/
 }
 .zhengti
 {
 
     width: 1095px;
-    height: 990px;
+    height:1080px;
     margin: 0 auto;
-    border: 2px solid slategray;
+    border: 2px solid #eaeaea;
     background-color: #FFFFFF;
     border-top: 0;
+    border-bottom: 0;
     position: relative;
 }
 .tupian img
@@ -35,7 +37,7 @@ body{
     color: #FFFFFF;
     line-height: 36px;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 a:link
 {
@@ -88,20 +90,34 @@ a:hover
     margin-left: 50px;
     top: 55px;
 }
+.shuxian2{
+    height: 744px;
+    width: 100px;
+    border-right: 1px solid gray;
+    position: absolute;
+    top: 78px;
+    left: 120px;
+}
+
 /*竖线*/
 .shuxian
 {
 
-    border-right: 1px solid gray;
+    /*border-right: 1px solid gray;*/
     height: 585px;
     position: relative;
     width: 220px;
-    top: 6px;
+    top: 25px;
     padding-top: 10px;
 
 }
 .wenjian a
 {
+    display: block;
+    width: 190px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
     text-decoration: none;
     color: gray;
     bottom: 411px;
@@ -110,6 +126,8 @@ a:hover
 .wenjian
 {
     height: 30px;
+    position: absolute;
+    top: 665px;
 }
 .wenti1
 {
@@ -152,13 +170,13 @@ a:hover
 {
     color: red;
     position: relative;
-    top:-29px;
+    top:150px;
 }
 .bydj02
 {
     position: relative;
     left: 588px;
-    bottom: 578px;
+    bottom: 540px;
     font-size: 30px;
     color: #577F49;
 }
@@ -166,7 +184,7 @@ a:hover
 {
     color: #666666;
     left: 267px;
-    bottom: 568px;
+    bottom: 485px;
     position: relative;
     line-height: 33px;
     width: 792px;
@@ -174,7 +192,7 @@ a:hover
 .yijing
 {
     left: 267px;
-    bottom: 543px;
+    bottom: 435px;
     position: relative;
     color: #577F49;
     width: 792px;
@@ -206,7 +224,7 @@ a:hover
     position: relative;
     left: 267px;
     width: 500px;
-    bottom: 506px;
+    bottom: 395px;
 }
 .xian5
 {
@@ -214,7 +232,7 @@ a:hover
     position: relative;
     width: 783px;
     margin-left: 317px;
-    top: -456px;
+    top: -335px;
     opacity: 0.5;
 }
 
@@ -226,7 +244,7 @@ a:hover
     border-radius: 5px;
     background-color: #EEFDE4;
     left: 498px;
-    top: -410px;
+    top: -260px;
     position: relative;
     color: #577F49;
     line-height: 54px;
@@ -238,6 +256,7 @@ a:hover
 {
     color:#666666 ;
     position: relative;
+    top: 130px;
     margin-top: 843px;
     line-height: 24px;
 }

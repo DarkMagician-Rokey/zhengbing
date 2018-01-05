@@ -1,0 +1,404 @@
+body
+{
+    width: 1321px;
+    height: 775px;
+    margin: 0;
+    padding: 0;
+}
+.zhengt
+{
+    width: 1321px;
+    height: 775px;
+    margin: 0;
+    padding: 0;
+}
+.zitou
+{
+    top: 50px;
+    left: 253px;
+    font-size: 30px;
+    width: 300px;
+    position: relative;
+    margin-right: 0;
+}
+.zitou a
+{
+    text-decoration: none;
+    color: #577F49;
+}
+.youce00
+{
+    position: relative;
+    top: 31px;
+    left: 936px;
+    width: 200px;
+}
+.youce00 a
+{
+text-decoration: none;
+    color: #666666;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: #577F49;
+}
+
+/*中间*/
+.zhongjian000
+{
+
+    width: 1290px;
+}
+.zhongjian000 img
+{
+    position: relative;
+    width:1440px;
+    height: 571px;
+
+    top: 78px;
+
+}
+.liucheng
+{
+    position: relative;
+    top: -426px;
+    left: 125px;
+    width: 800px;
+}
+.liucheng  div
+{
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.gxbmlc div:hover
+{
+    color: #7f1113;
+    cursor: pointer;
+    text-decoration: none;
+}
+.gxbmlc
+{
+    display: flex;
+    align-items: center;
+}
+.nb001
+{
+    position: relative;
+    width: 127px;
+    padding: 0;
+    margin: 0;
+    right: 24px;
+
+}
+.nv002
+{
+
+    position: relative;
+    width: 127px;
+    right: 11px;
+}
+.nblc
+{
+    position: relative;
+    bottom: 335px;
+    left: 103px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    color: #577F49;
+    margin: 0;
+}
+.wsbm{
+    position: relative;
+    width: 102px;
+    height: 51px;
+    border-radius: 3px ;
+    background-color: #B0C5D1;
+    line-height: 51px;
+    padding-left: 24px;
+    color: black;
+    cursor:pointer;
+}
+.bm001
+{
+    display:none;
+    position: absolute;
+    top: 150px;
+    right: 850px;
+    width:517px;
+    height: 610px;
+    cursor:pointer;
+    margin: 0;
+
+}
+.cscj
+{
+    position: relative;
+    width:102px;
+    height: 51px;
+    border-radius: 3px ;
+    background-color: #D4DBAA;
+    line-height: 51px;
+    padding-left: 24px;
+    color: black;
+    left: 152px;
+    bottom: 51px;
+    cursor:pointer;
+}
+.cs002
+{
+    display:none;
+    position: absolute;
+    bottom: 60px;
+    right: 750px;
+    width:517px;
+    height: 610px;
+    cursor:pointer;
+}
+.tjzs
+{
+    position: relative;
+    width: 102px;
+    height: 51px;
+    border-radius: 3px ;
+    background-color: #DABBB2;
+    line-height: 51px;
+    padding-left: 24px;
+    color: black;
+    left: 318px;
+    bottom: 103px;
+}
+.tj003
+{
+    display:none;
+    position: absolute;
+    bottom: 60px;
+    right: 725px;
+    width:517px;
+    height: 610px;
+    cursor:pointer;
+}
+.zfdc
+{
+    position: relative;
+    width: 102px;
+    height: 51px;
+    border-radius: 3px ;
+    background-color: #DEC9A8;
+    line-height: 51px;
+    padding-left: 24px;
+    color: black;
+    left: 497px;
+    bottom: 154px;
+}
+.zf004
+{
+    display:none;
+    position: absolute;
+    bottom: 60px;
+    right: 650px;
+    width:517px;
+    height: 610px;
+    cursor:pointer;
+}
+.ydxb
+{
+    position: relative;
+    width: 102px;
+    height: 51px;
+    border-radius: 3px ;
+    background-color: #DCCDE8;
+    line-height: 51px;
+    padding-left: 24px;
+    color: black;
+    left: 497px;
+    bottom: 207px;
+}
+.yd005
+{
+    display:none;
+    position: absolute;
+    bottom: 75px;
+    left: 265px;
+    width:517px;
+    height: 381px;
+    cursor:pointer;
+}
+.zbgs
+{
+    position: relative;
+    width: 102px;
+    height: 51px;
+    border-radius: 3px ;
+    background-color: #DAEDB3;
+    line-height: 51px;
+    padding-left: 24px;
+    color: black;
+    left: 318px;
+    bottom: 156px;
+}
+.zb006
+{
+    display:none;
+    position: absolute;
+    bottom: 75px;
+    right: 735px;
+    width:517px;
+    height: 381px;
+    cursor:pointer;
+}
+.pzrw
+{
+    position: relative;
+    width: 102px;
+    height: 51px;
+    border-radius: 3px ;
+    background-color: #DBC5B8;
+    line-height: 51px;
+    padding-left: 24px;
+    color: black;
+    left: 152px;
+    bottom: 104px;
+}
+.pz007
+{
+    display:none;
+    position: absolute;
+    bottom: 75px;
+    right: 800px;
+    width:517px;
+    height: 381px;
+    cursor:pointer;
+}
+#dl1{
+    border-Bottom:2px #577F49 solid;
+    color:#577F49;
+}
+
+
+.denglu001
+{
+    position: absolute;
+    width: 341px;
+    height: 347px;
+    bottom: 200px;
+    left: 900px;
+    background-color: #E9EEEF;
+    border-radius: 9px;
+}
+.denglu002
+{
+    position: relative;
+    top: 26px;
+
+}
+.dl006
+{
+    font-size: 26px;
+    padding-left: 30px;
+}
+.qsy
+{
+    position: relative;
+    color: #666666;
+    padding-left: 93px;
+    bottom: 24px;
+}
+.denglu002 a
+{
+    color: #666666;
+
+}
+.x01
+{
+    position: relative;
+    top: 10px;
+}
+.shouji
+{
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+.shouji input
+{
+    width: 279px;
+    height: 40px;
+}
+.mima
+{
+    position: relative;
+    top: 44px;
+    left: 20px;
+}
+.mima input
+{
+    width: 279px;
+    height: 40px;
+}
+.zhyhm
+{
+    position: relative;
+    left: 20px;
+    top: 70px;
+    width: 100px;
+}
+.zhyhm a
+{
+   text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: black;
+
+}
+.zhmm
+{
+    position: relative;
+    left: 114px;
+    top: 52px;
+    width: 100px;
+}
+.zhmm a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: black;
+
+}
+.denglu004
+{
+    position: relative;
+    background-color: #428FDF;
+    left: 20px;
+    width: 75px;
+    height: 50px;
+    top: 65px;
+    color: white;
+    line-height: 49px;
+    padding-left: 44px;
+    border-radius: 5px;
+}
+.zhuce004
+{
+    position: relative;
+    background-color: #F0F6FB;
+    left: 180px;
+    width: 75px;
+    height: 50px;
+    top: 15px;
+    color: gray;
+    line-height: 49px;
+    padding-left: 44px;
+    border-radius: 5px;
+}

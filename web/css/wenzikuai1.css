@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e4eae5;
+    /*font: 12px/1.5 '微软雅黑E\8F6F\96C5\9ED1',tahoma,arial,"Hiragino Sans GB",宋体b8b\4f53;}*/
+}
+.zhengti
+{
+    border: 2px solid #eaeaea;
+    width: 1095px;
+    height: 1330px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-top: 0;
+    position: relative;
+}
+.tupian img
+{
+    width: 1060px;
+    height: 144px;
+    position: absolute;
+    margin-left: 17px;
+}
+.xinxilan
+{
+    background-color: #577F49;
+    width: 1060px;
+    height: 40px;
+    position: relative;
+    margin-left: 17px;
+    top: 144px;
+}
+.neirong a
+{
+    color: #FFFFFF;
+    line-height: 36px;
+    text-decoration: none;
+    margin-left: 56px;
+}
+a:hover {
+
+    color: yellow;
+    text-decoration: underline;
+}
+
+.s1 {
+    padding: 16px 16px;
+}
+
+.biaoti{
+    font-size: 14px;
+    margin: 158px 0 0 25px;
+
+}
+.biaoti h2{
+    color: #497D3B;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 宋体;
+}
+.biaoti .laiyuan{
+    border-bottom: 1px dotted #CCCCCC;
+    color: #999999;
+    font-size: 12px;
+    height: 30px;
+    margin: 10px 0 15px;
+    position: relative;
+    text-align: left;
+}
+.biaoti .p1{
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-indent: 2em;
+    color: #999999;
+}
+.biaoti p{
+    color: #999999;
+    font-size: 14px;
+    text-indent: 2em;
+    margin-bottom: 15px;
+}
+.biaoti p .span1{
+    margin-left: 880px;
+}
+.biaoti p .span2{
+    margin-left: 920px;
+}
+.xian5{
+    right: 50px;
+    position: relative;
+    width: 1085px;
+    margin-left: 317px;
+    top: 160px;
+    right: 310px;
+    opacity: 0.5;
+}
+
+.zbdw
+{
+    color:#666666 ;
+    position: relative;
+    top: -665px;
+    margin-top: 843px;
+    line-height: 24px;
+}
+a{text-decoration: none}
