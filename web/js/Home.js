@@ -1,51 +1,37 @@
 /**
  * Created by ttc on 17-12-27.
  */
-//主页
-function home() {
-    document.getElementById("").onclick=function () {
-        location.href="/page/Home.jsp";
-    }
-}
-//登记页
-function dengji() {
-    document.getElementById("").onclick=function () {
-        location.href="/page/dengji.jsp";
-    }
-}
-// 兵役管理页面
-function guanli() {
-    document.getElementById("").onclick=function () {
-        location.href="/page/.jsp";
-    }
-}
-//国防知识页
-function zhishi() {
-    document.getElementById("").onclick=function () {
-        location.href="/page/";
-    }
-}
-//军旅生活
-function junlv() {
-    document.getElementById("").onclick=function () {
-        location.href="/page/";
-    }
-}
-//退役生活
-function tuiyi() {
-    document.getElementById("").onclick=function () {
-        location.href="/page/";
-    }
-}
 //主图
 function img() {
-    document.getElementById("").onclick=function () {
+    document.getElementById("jumu").onclick=function () {
         location.href="/page/login.jsp";
     }
 }
 //编辑个人资料
 function edit() {
-    document.getElementById("").onclick=function () {
-        location.href="/servlet/ServletHome";
+    var email=document.getElementById("email").innerHTML;
+    if(email!="游客，点击登陆"){
+        var ed=document.getElementById("ed");
+            ed.innerHTML=",编辑个人资料";
+        ed.onclick=function () {
+            location.href="/servlet/ServletEdit";
+        }
     }
+
 }
+//点击游客
+function login() {
+    location.href="/page/login.jsp";
+}
+
+//兵役登记
+function bingyi() {
+    location.href="/servlet/ServletDengji";
+}
+
+//应征报名
+function baoming() {
+    location.href="/servlet/ServletBaoming";
+}
+
+
