@@ -29,12 +29,12 @@ public class ServletEdit extends HttpServlet
 
         User u = getEidt(name);
 
-        int UserPhoneNumber = u.getUserPhoneNumber();
+        String UserPhoneNumber = u.getUserPhoneNumber();
         String UserPassword = u.getUserPassword();
         String UserName = u.getUserName();
         String UserSex = u.getUserSex();
         String UserTypeOfCertificate = u.getUserTypeOfCertificate();
-        int UserLicenseNumber = u.getUserLicenseNumber();
+        String UserLicenseNumber = u.getUserLicenseNumber();
         String UserMailbox = u.getUserMailbox();
         String UserSecurityQuestion1 = u.getUserSecurityQuestion1();
         String UserAnswer1 = u.getUserAnswer1();
@@ -63,7 +63,7 @@ public class ServletEdit extends HttpServlet
         hs.setAttribute("UserPhotoUrl",UserPhotoUrl);
 
 
-        response.sendRedirect("/page/editpersonal.jsp");
+        response.sendRedirect("/page/register.jsp");
 
     }
 
@@ -79,12 +79,12 @@ public class ServletEdit extends HttpServlet
             ResultSet rs = ps.executeQuery();
             while (rs.next())
             {
-                u.setUserPhoneNumber(rs.getInt("USERPHONENUMBER"));
+                u.setUserPhoneNumber(rs.getString("USERPHONENUMBER"));
                 u.setUserPassword(rs.getString("USERPASSWORD"));
                 u.setUserName(rs.getString("USERNAME"));
                 u.setUserSex(rs.getString("USERSEX"));
                 u.setUserTypeOfCertificate(rs.getString("USERTYPEOFCERTIFICATE"));
-                u.setUserLicenseNumber(rs.getInt("USERLICENSENUMBER"));
+                u.setUserLicenseNumber(rs.getString("USERLICENSENUMBER"));
                 u.setUserMailbox(rs.getString("USERMAILBOX"));
                 u.setUserSecurityQuestion1(rs.getString("USERSECURITYQUESTION1"));
                 u.setUserAnswer1(rs.getString("USERANSWER1"));

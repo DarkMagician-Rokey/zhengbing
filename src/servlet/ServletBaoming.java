@@ -1,7 +1,6 @@
 package servlet;
 
 import DBUtil.DBUtil;
-import Dao.MaterialSource_work;
 import Dao.MaterialTable_laws;
 
 import javax.servlet.ServletException;
@@ -19,37 +18,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by ttc on 17-12-27.
+ * Created by ttc on 18-1-4.
  */
-@WebServlet("/ServletHome")
-public class ServletHome extends HttpServlet
+@WebServlet("/ServletBaoming")
+public class ServletBaoming extends HttpServlet
 {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-        //政策法规
         List<MaterialTable_laws> li_laws = getLaws();
-
-        //工作动态
-        List<MaterialSource_work> li_work = getWork();
-
         HttpSession hs = request.getSession();
-
         hs.setAttribute("fagui", li_laws);
-        hs.setAttribute("work", li_work);
-
-        response.sendRedirect("/page/Home.jsp");
+        response.sendRedirect("/page/baoming.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-        doPost(request, response);
+      doPost(request,response);
     }
 
     public List<MaterialTable_laws> getLaws()
     {
         List<MaterialTable_laws> li = new ArrayList();
         Connection conn = DBUtil.connedDB();
-        String sql = "select MATERIALNAME,IMAGELINK from MATERIALTABLE";
+        String sql = "select MATERIALNAME from MATERIALTABLE";
         try
         {
             PreparedStatement ps = conn.prepareStatement(sql);
@@ -58,7 +49,6 @@ public class ServletHome extends HttpServlet
             {
                 MaterialTable_laws m = new MaterialTable_laws();
                 m.setMaterialName(rs.getString("MATERIALNAME"));
-                m.setImageLink(rs.getString("IMAGELINK"));
                 li.add(m);
             }
         } catch (SQLException e)
@@ -66,29 +56,6 @@ public class ServletHome extends HttpServlet
             e.printStackTrace();
         }
 
-        return li;
-    }
-
-    public List<MaterialSource_work> getWork()
-    {
-        List<MaterialSource_work> li = new ArrayList();
-        Connection conn = DBUtil.connedDB();
-        String sql = "select MATERIALNAME,IMAGELINK from MATERIALSOURCE";
-        try
-        {
-            PreparedStatement ps = conn.prepareStatement(sql);
-            ResultSet rs = ps.executeQuery();
-            while (rs.next())
-            {
-                MaterialSource_work m = new MaterialSource_work();
-                m.setMaterialName(rs.getString("MATERIALNAME"));
-                m.setImageLink(rs.getString("IMAGELINK"));
-                li.add(m);
-            }
-        } catch (SQLException e)
-        {
-            e.printStackTrace();
-        }
         return li;
     }
 }

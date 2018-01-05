@@ -29,6 +29,8 @@ public class ServletDengji extends HttpServlet
 
         HttpSession hs = request.getSession();
         hs.setAttribute("fagui", li_laws);
+
+        response.sendRedirect("/page/dengji.jsp");
     }
 
     public List<MaterialTable_laws> getLaws()
