@@ -84,3 +84,9 @@ function dl26() {
 function dl27() {
     document.getElementById("png7").style.display="none";
 }
+function login() {
+    document.getElementById("submit").click();
+}
+function register() {
+    window.location.href="/page/registered.jsp";
+}

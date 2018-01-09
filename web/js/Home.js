@@ -3,18 +3,19 @@
  */
 //主图
 function img() {
-    document.getElementById("jumu").onclick=function () {
-        location.href="/page/login.jsp";
-    }
+        window.location.href="/page/login.jsp";
 }
 //编辑个人资料
-function edit() {
-    var email=document.getElementById("email").innerHTML;
-    if(email!="游客，点击登陆"){
+window.onload=function edit() {
+    var email=document.getElementById("email").innerText;
+    console.log(email);
+    if(email!="游客,点击登陆"){
+        console.log("ready");
         var ed=document.getElementById("ed");
             ed.innerHTML=",编辑个人资料";
         ed.onclick=function () {
-            location.href="/servlet/ServletEdit";
+            document.getElementById("submit").click();
+
         }
     }
 
