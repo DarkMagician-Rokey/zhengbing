@@ -1,0 +1,117 @@
+body {
+    margin-top: 0px;
+}
+
+
+.tou {
+    background: url("../images/topBG.jpg") ;
+    width: 950px;
+    height: 46px;
+    margin: 0 auto;
+    border-bottom: 3px solid #ecf7f1;
+}
+.tu {
+    background: url("../images/topLogo_chsi.png") ;
+    width: 245px;
+    height: 46px;
+    position: relative;
+    left: 20px;
+}
+.atou {
+    width: 200px;
+    position: relative;
+    left: 900px;
+    top: -33px;
+}
+
+.atou a,.atou span{
+    font-size: 13px;
+    color: white;
+    margin-right: 10px;
+}
+a:link{
+    text-decoration: none;
+}
+
+.atou a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.regleftBG {
+    float: left;
+    display: inline;
+    background: #f1f8f5;
+    padding: 3px;
+    width: 150px;
+    height: 730px;
+    position: relative;
+    left: 160px;
+    top: -10px;
+}
+.zhong{
+    width: 768px;
+    height: 730px;
+    background-color: white;
+    border: 1px solid #D8DFEA;
+}
+.zhongz {
+    margin: 15px 30px;
+}
+.zuo {
+    background-color: #f1f8f5;
+    border: 1px solid #D8DFEA;
+    width: 150px;
+    height: 730px;
+}
+.shiming{
+    position: relative;
+    top: 24px;
+    left: 40px;
+    margin-bottom: 10px;
+}
+.zhuche {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+.shiming a{
+    font-size: 12px;
+    color: black;
+}
+.shiming a:hover {
+    color: #4C8A53;
+    text-decoration: underline;
+}
+.regleft1{
+    width: 1275px;
+    margin: 0 auto;
+}
+.regleftBG2{
+    float: left;
+    display: inline;
+    background: #f1f8f5;
+    padding: 3px;
+    width: 768px;
+    height: 730px;
+    position: relative;
+    left: 175px;
+    top: -10px;
+    font-size: 13px;
+}
+
+.wangyedi{
+    color: #666;
+    position: relative;
+    right: 436px;
+    top: 740px;
+    font-size: 12px;
+}
+
+.diclass {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #666;
+}
+.diclass:hover {
+    text-decoration:underline;
+}

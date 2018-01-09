@@ -1,0 +1,92 @@
+body{
+    margin-top: 0;
+
+    height: 900px;
+}
+.zhengti
+{
+
+    width: 1095px;
+    height: 1100px;
+    margin: 0 auto;
+    border: 2px solid slategray;
+    background-color: #FFFFFF;
+    border-top: 0;
+    position: relative;
+}
+.tupian img
+{
+    width: 1060px;
+    height: 144px;
+    position: absolute;
+    margin-left: 17px;
+}
+.xinxilan
+{
+    background-color: #577F49;
+    width: 1060px;
+    height: 40px;
+    position: relative;
+    margin-left: 17px;
+    top: 144px;
+}
+.neirong a
+{
+    color: #FFFFFF;
+    line-height: 36px;
+    text-decoration: none;
+    margin-left: 56px;
+}
+a:hover
+{
+
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+.syx0001
+{
+    position: relative;
+    top: 194px;
+    left: 286px;
+    color: #577F49;
+    width: 531px;
+    font-size: 30px;
+}
+.riqi0001
+{
+    position: relative;
+    color: #666666;
+    left: 20px;
+    top: 200px;
+}
+.xian00001
+{
+    position: relative;
+    top: 210px;
+
+    width: 1049px;
+    left: 20px;
+}
+.tu0001
+{
+ position: relative;
+    top: 219px;
+    left: 20px;
+
+}
+.tu0001 img
+{
+    width: 1055px;
+    height: 272px;
+}
+.zhengwen
+{
+    position: relative;
+    top: 277px;
+    left: 20px;
+    color: #666666;
+    width: 1049px;
+    line-height: 30px;
+}
