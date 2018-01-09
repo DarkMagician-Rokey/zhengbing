@@ -24,9 +24,8 @@
              <a href="#">兵役登记|</a>
              <a href="../page/baoming.jsp">应征报名</a>
              <a href="../">国防知识|</a>
-             <a href="">军旅生活</a>
-             <a href="">退役风采|</a>
-             <a href="">在线咨询</a>
+             <a href="../html/jlsh.html">军旅生活</a>
+             <a href="../html/tyfc.html">退役风采|</a>
          </span>
         <div class="bingyidengji">
             <a href="shouye.html">首页>></a>
@@ -44,7 +43,7 @@
         </div>
         <div class="wenjian">
             <c:forEach var="faguis" items="${fagui}">
-            <a href="">${faguis.materialName}</a> <br><br>
+            <a href="${faguis.imageLink}">${faguis.materialName}</a> <br><br>
             </c:forEach>
         </div>
 

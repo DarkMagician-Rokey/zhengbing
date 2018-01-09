@@ -23,25 +23,30 @@
              <a href="#" class="s1">首页|</a>
              <a href="../page/dengji.jsp" onclick="bingyi()">兵役登记|</a>
              <a href="../page/baoming.jsp" onclick="baoming()">应征报名</a>
-             <a href="../page/guofangzhishi.jsp">国防知识|</a>
-             <a href="../page/junlvshenghuo.jsp">军旅生活</a>
-             <a href="../page/tuiyifengcai,jsp">退役风采|</a>
+             <a href="../html/gfzs.html">国防知识|</a>
+             <a href="../html/jlsh.html">军旅生活</a>
+             <a href="../html/tyfc.html">退役风采|</a>
          </span>
 
 
         <%--用户名--%>
 
-        <span class="email" id="email" onclick="login()">
-             <c:out value="${name}" default="游客，点击登陆"></c:out>
+        <span class="email" id="email" name="email" onclick="login()">
+             <c:out value="${name}" default="游客,点击登陆" escapeXml="false"/>
          </span>
 
         <span class="ed" id="ed"></span>
 
+        <form action="/ServletEdit" method="post" id="form" hidden>
+            <input type="text" value="${phone}" name="email1">
+
+            <input type="submit" id="submit" form="form">
+        </form>
 
     </div>
 
 
-    <div class="ywqn">
+    <div class="ywqn" onclick="img()">
         <img id="jumu" src="../images/3.JPG" alt="巨幕">
     </div>
     <div class="zuo">
@@ -58,7 +63,7 @@
             次会议通过...
         </div>
         <div class="xiangxi20">
-            <a href="">[详细]</a>
+            <a href="../html/zhrmghgbyf.html">[详细]</a>
         </div>
         <div class="xian19">
             <hr>
@@ -91,7 +96,7 @@
             试"服务、"一条龙"办理...
         </div>
         <div class="xiangxi19">
-            <a href="">[详细]</a>
+            <a href="../html/syx.html">[详细]</a>
         </div>
         <div class="xian17">
             <hr>
@@ -103,7 +108,7 @@
                 <li><span class="rwxcd"> <a href="">大学生应征入伍宣传单</a></span></li>
                 <br>
                 <c:forEach var="works" items="${work}">
-                    <li><a href="">${works.materialName}</a></li>
+                    <li><a href="${works.imageLink}">${works.materialName}</a></li>
                     <br>
                 </c:forEach>
             </ul>

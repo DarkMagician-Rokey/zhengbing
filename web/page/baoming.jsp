@@ -13,6 +13,7 @@
     <meta charset="UTF-8">
     <title>应征报名——全国征兵网</title>
     <link rel="stylesheet" href="../css/yzbm.css">
+    <script src="../js/baoming.js"></script>
 </head>
 <body>
 <div class="zhengti">
@@ -23,14 +24,13 @@
          <span class="neirong">
              <a href="../page/Home.jsp" class="s1">首页|</a>
              <a href="../page/dengji.jsp">兵役登记|</a>
-             <a href="#">应征报名</a>
-             <a href="">国防知识|</a>
-             <a href="">军旅生活</a>
-             <a href="">退役风采|</a>
-             <a href="">在线咨询</a>
+             <a href="../page/baoming.jsp">应征报名</a>
+             <a href="../html/gfzs.html">国防知识|</a>
+             <a href="../html/jlsh.html">军旅生活</a>
+             <a href="../html/tyfc.html">退役风采|</a>
          </span>
         <div class="bingyidengji">
-            <a href="shouye.html">首页>></a>
+            <a href="../page/Home.jsp">首页>></a>
             应征报名
         </div>
         <div class="xiahuaxian1">
@@ -45,7 +45,7 @@
         </div>
         <div class="wenjian">
             <c:forEach var="faguis" items="${fagui}">
-            <a href="">${faguis.materialName}</a> <br><br>
+            <a href="${faguis.imageLink}">${faguis.materialName}</a> <br><br>
             </c:forEach>
         </div>
 
@@ -68,8 +68,8 @@
                 <span class="ts"><strong>应征报名提示：</strong></span>男兵报名前须完成
                 <span class="bydj01">兵役登记</span>
             </div>
-            <div class="yznb" onclick="">应征报名(男兵)</div>
-            <div class="yznvb" onclick="">应征报名(女兵)</div>
+            <div class="yznb" onclick="man()">应征报名(男兵)</div>
+            <div class="yznvb" onclick="woman()">应征报名(女兵)</div>
         </div>
     </div>
     <div class="zbdw">

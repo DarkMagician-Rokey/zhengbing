@@ -19,7 +19,7 @@
             <a href="../html/shouye.html"> <strong>全国征兵网</strong></a>
         </div>
         <span class="youce00">
-          <a href="../html/shouye.html">全国征兵网首页|</a>
+          <a href="../page/Home.jsp">全国征兵网首页|</a>
           <a href="">用户须知|</a>
           <a href="">联系我们</a>
       </span>
@@ -69,20 +69,25 @@
          <div class="qsy">(请使用<a href="">学信网账号</a>进行登录)</div>
      </span>
         <div class="x01"> <hr></div>
+
+        <form action="/ServletLogin" method="post" id="form">
         <div class="shouji">
-            <input type="text" placeholder="手机号/身份证号/邮箱">
+            <input type="text" placeholder="手机号/身份证号/邮箱" name="email">
         </div>
         <div class="mima">
             <input type="password" placeholder="密码">
         </div>
+        </form>
+
         <div class="zhyhm">
-            <a href="">找回用户名</a>
+            <a href="../page/Retrieveusername.jsp">找回用户名</a>
         </div>
         <div class="zhmm">
-            <a href="">找回密码</a>
+            <a href="../page/Retrievepassword.jsp">找回密码</a>
         </div>
-        <div class="denglu004"><strong>登录</strong></div>
-        <div class="zhuce004">注册</div>
+        <div class="denglu004"  onclick="login()"><strong>登录</strong></div>
+        <div class="zhuce004" onclick="register()">注册</div>
+        <input type="submit" id="submit" form="form" hidden>
     </div>
 </div>
 </body>

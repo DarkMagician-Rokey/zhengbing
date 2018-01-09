@@ -18,13 +18,12 @@
     </div>
     <div class="xinxilan">
          <span class="neirong">
-             <a href="" class="s1">首页|</a>
-             <a href="../html/bydj.html">兵役登记|</a>
-             <a href="../html/yzbm.html">应征报名</a>
+             <a href="../page/Home.jsp" class="s1">首页|</a>
+             <a href="../page/dengji.jsp">兵役登记|</a>
+             <a href="../page/baoming.jsp">应征报名</a>
              <a href="../html/gfzs.html">国防知识|</a>
-             <a href="">军旅生活</a>
-             <a href="">退役风采|</a>
-             <a href="">在线咨询</a>
+             <a href="../html/jlsh.html">军旅生活</a>
+             <a href="../html/tyfc.html">退役风采|</a>
          </span>
     </div>
     <div class="biaoti">

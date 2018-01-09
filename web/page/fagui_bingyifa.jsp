@@ -21,9 +21,9 @@
              <a href="../page/Home.jsp" class="s1">首页|</a>
              <a href="../page/dengji.jsp">兵役登记|</a>
              <a href="../page/baoming.jsp">应征报名</a>
-             <a href="../page/guofangzhishi.jsp">国防知识|</a>
-             <a href="../page/junlvshenghuo.jsp">军旅生活</a>
-             <a href="../page/tuiyifengcai,jsp">退役风采|</a>
+             <a href="../html/gfzs.html">国防知识|</a>
+             <a href="../html/jlsh.html">军旅生活</a>
+             <a href="../html/tyfc.html">退役风采|</a>
          </span>
     </div>
     <div class="biaoti">
