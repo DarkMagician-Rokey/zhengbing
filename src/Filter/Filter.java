@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * Created by ttc on 17-12-27.
  */
-@WebFilter(filterName = "Filter",urlPatterns = "/servlet/*")
+@WebFilter(filterName = "Filter",urlPatterns = "/*")
 public class Filter implements javax.servlet.Filter
 {
     public void destroy()
