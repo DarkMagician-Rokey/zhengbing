@@ -2,6 +2,7 @@ package servlet;
 
 import DBUtil.DBUtil;
 import Dao.User;
+import jdk.nashorn.internal.ir.RuntimeNode;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,17 +13,21 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import static DBUtil.DBUtil.connedDB;
+
 /**
- * Created by ttc on 18-1-3.
+ * Created by ttc on 17-12-27.
  */
-@WebServlet("/ServletEditPersonal")
-public class ServletEditPersonal extends HttpServlet
+@WebServlet("/ServletRegistered")
+//�ͻ���ע�����
+public class ServletRegistered extends HttpServlet
 {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-        User u = new User();
+        User u=new User();
         //��ҳ���ȡע����Ϣ
         u.setUserPhoneNumber(request.getParameter("Phonenumber"));
 
@@ -42,7 +47,7 @@ public class ServletEditPersonal extends HttpServlet
 
 
         //���û����ݷŵ����ݿ���
-        if (setUserFromDB(u))
+        if(setUserFromDB(u))
         {
             HttpSession hs = request.getSession();
 
@@ -53,9 +58,8 @@ public class ServletEditPersonal extends HttpServlet
             response.sendRedirect("/page/Home.jsp");
 
         }
+
     }
-
-
 
 
 
@@ -69,13 +73,9 @@ public class ServletEditPersonal extends HttpServlet
     {
         try
         {
-            Connection conn= DBUtil.connedDB();
+            Connection conn=DBUtil.connedDB();
 
-            String sql="UPDATE usertable set " +
-                    "USERPHONENUMBER=?,USERPASSWORD=?,USERNAME=?,USERSEX=?,USERTYPEOFCERTIFICATE=?," +
-                    "USERLICENSENUMBER=?,USERMAILBOX=?,USERSECURITYQUESTION1=?,USERANSWER1=?," +
-                    "USERSECURITYQUESTION2=?,USERANSWER2=?,USERSECURITYQUESTION3=?,USERANSWER3=?,USERPHOTOURL=?" +
-                    " WHERE USERNAME=?";
+            String sql="INSERT INTO usertable VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
             PreparedStatement ps=conn.prepareStatement(sql);
 
@@ -93,7 +93,6 @@ public class ServletEditPersonal extends HttpServlet
             ps.setString(12,u.getUserSecurityQuestion3());
             ps.setString(13,u.getUserAnswer3());
             ps.setString(14,u.getUserPhotoUrl());
-            ps.setString(15,u.getUserName());
             int r=ps.executeUpdate();
 
             if(r>0){

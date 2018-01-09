@@ -25,7 +25,8 @@ public class ServletEdit extends HttpServlet
 
 
         //编辑个人资料
-        String name = request.getParameter("");
+        String name = request.getParameter("email1");
+        System.out.println(name);
 
         User u = getEidt(name);
 
@@ -44,6 +45,13 @@ public class ServletEdit extends HttpServlet
         String UserAnswer3 = u.getUserAnswer3();
         String UserPhotoUrl=u.getUserPhotoUrl();
 
+        String UserSex2="";
+        if(UserSex.equals("男")){
+            UserSex2="女";
+        }else {
+            UserSex2="男";
+        }
+
 
         //session
         HttpSession hs = request.getSession();
@@ -51,6 +59,7 @@ public class ServletEdit extends HttpServlet
         hs.setAttribute("UserPassword", UserPassword);
         hs.setAttribute("UserName", UserName);
         hs.setAttribute("UserSex", UserSex);
+        hs.setAttribute("UserSex2",UserSex2);
         hs.setAttribute("UserTypeOfCertificate", UserTypeOfCertificate);
         hs.setAttribute("UserLicenseNumber", UserLicenseNumber);
         hs.setAttribute("UserMailbox", UserMailbox);
@@ -63,7 +72,7 @@ public class ServletEdit extends HttpServlet
         hs.setAttribute("UserPhotoUrl",UserPhotoUrl);
 
 
-        response.sendRedirect("/page/register.jsp");
+        response.sendRedirect("/page/resit.jsp");
 
     }
 
@@ -71,7 +80,7 @@ public class ServletEdit extends HttpServlet
     {
         User u = new User();
         Connection conn = DBUtil.connedDB();
-        String sql = "SELECT * FROM USERTABLE WHERE NAME = ?";
+        String sql = "SELECT * FROM USERTABLE WHERE USERPHONENUMBER = ?";
         try
         {
             PreparedStatement ps = conn.prepareStatement(sql);
@@ -90,7 +99,7 @@ public class ServletEdit extends HttpServlet
                 u.setUserAnswer1(rs.getString("USERANSWER1"));
                 u.setUserSecurityQuestion2(rs.getString("USERSECURITYQUESTION2"));
                 u.setUserAnswer2(rs.getString("USERANSWER2"));
-                u.setUserSecurityQuestion3(rs.getString("USERANSWER2"));
+                u.setUserSecurityQuestion3(rs.getString("USERSECURITYQUESTION3"));
                 u.setUserAnswer3(rs.getString("USERANSWER3"));
                 u.setUserPhotoUrl(rs.getString("USERPHOTOURL"));
             }

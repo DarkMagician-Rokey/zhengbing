@@ -40,7 +40,7 @@ public class ServletBaoming extends HttpServlet
     {
         List<MaterialTable_laws> li = new ArrayList();
         Connection conn = DBUtil.connedDB();
-        String sql = "select MATERIALNAME from MATERIALTABLE";
+        String sql = "select MATERIALNAME,IMAGELINK from MATERIALTABLE";
         try
         {
             PreparedStatement ps = conn.prepareStatement(sql);
@@ -49,6 +49,7 @@ public class ServletBaoming extends HttpServlet
             {
                 MaterialTable_laws m = new MaterialTable_laws();
                 m.setMaterialName(rs.getString("MATERIALNAME"));
+                m.setImageLink(rs.getString("IMAGELINK"));
                 li.add(m);
             }
         } catch (SQLException e)
